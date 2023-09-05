@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>&lt;Ma7el class="ly"&gt;&lt;/Ma7el&gt;</title>
+  <link rel="stylesheet" type="text/css" href="./_Ma7el class=_ly____Ma7el__files/styles.css">
+</head>
+<body>
+  <header>
+    <h1>مرحبا بكم في Ma7el</h1>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html#">الصفحة الراىْسية</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#">القمصان الرياضية</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#">المزيد</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#">تاتواصل معنا</a></li>
+      </ul>
+    
+  </header>
+
+  <section id="الراىْسية">http://127.0.0.1:5500/index.html
+    <h2>القمصان الاكثر طلبا</h2>
+    <p>احصل على افضل</p>
+    <a href="http://127.0.0.1:5500/index.html#products" class="cta-button">Explore Products</a>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+      <img src="./_Ma7el class=_ly____Ma7el__files/jersey1.jpg" alt="Jersey 1">
+      <h3>قمصان </h3>
+      <p>السعر: 69 دينار/p&gt;
+      <a href="http://127.0.0.1:5500/index.html#" class="add-to-cart">Add to Cart</a>
+    </p></div>
+    <div class="product">
+      <img src="./_Ma7el class=_ly____Ma7el__files/jersey2.jpg" alt="Jersey 2">
+      <h3>القمصان الاصلية</h3>
+      <p>السعر: 119 دينار</p>
+      <a href="http://127.0.0.1:5500/index.html#" class="add-to-cart">Add to Cart</a>
+    </div>
+    <!-- Add more product items as needed -->
+  </section>
+
+  <section id="about">
+    <h2>عن جودة محل</h2>
+    <p>We are a leading supplier of high-quality sports jerseys.</p>
+  </section>
+
+  <section id="التواصل">
+    <h2>تواصل مع محل</h2>
+    <p>For inquiries, please fill out the form below:</p>
+    <form>
+      <input type="text" placeholder="الاسم">
+      <input type="email" placeholder="رقم الهاتف">
+      <textarea placeholder="الموقع"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2021 Ma7el Mynix. All rights reserved.</p>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+<input type="text" placeholder="تعليق">
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.product {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+}
+
+.product img {
+  width: 100%;
+}
+
+.add-to-cart {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+import random
+
+def roll_dice():
+    return random.randint(1, 6)
+
+# Roll the dice and print the result
+dice_roll = roll_dice()
+print(f"The dice rolled: {dice_roll}")
+
+
+
+
+  <title>Ma7el - قمصان رياضية</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: red;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: black;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: red;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+    
+    section {
+      padding: 20px;
+      background-color: white;
+    }
+    
+    footer {
+      background-color: red;
+      padding: 20px;
+      color: black;
+      text-align: center;
+    }
+  </style>
+
+
+  <header>
+    <h1>Ma7el - الجودة الافضل في ليبيا</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="http://127.0.0.1:5500/index.html#">Home</a></li>
+      <li><a href="http://127.0.0.1:5500/index.html#">Products</a></li>
+      <li><a href="http://127.0.0.1:5500/index.html#">About</a></li>
+      <li><a href="http://127.0.0.1:5500/index.html#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>Welcome to Ma7el!</h2>
+    <p>Explore our collection of high-quality jerseys in various styles and designs.</p>
+    <!-- Add your product listings, images, and descriptions here -->
+  </section>
+  
+  <footer>
+    <p>© 2021 Ma7el - All rights reserved - المتجر الافضل في ليبيا</p>
+  </footer>
+<!-- Code inject--></body></html>
